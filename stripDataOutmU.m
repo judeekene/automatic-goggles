@@ -1,8 +1,8 @@
 dataC = [1,2,3,4,5,6,7,8];
 files = dir('*.csv');
-for file = files'
+for file = files'   
 Tab = readtable(file.name);
-Tab=Tab{:,:};
+Tab=Tab{:,:};     %table to array
 % z = Tab([10109,8462,5169,2973,11],2)';
 % z = Tab([10110,8463,5170,2974,12]-3,2)';
 Tw = Tab([10110,8463,5170,2974,12]-3,[3:end])';
