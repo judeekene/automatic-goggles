@@ -9,7 +9,7 @@ Tw = Tab([10110,8463,5170,2974,12]-3,[3:end])';
 k = Tab(7,[3:end])';
 m = 0.247098*pi/4*(0.0045^2)*1028*ones(14,1);
 q = 20000*ones(14,1);
-dataC = [dataC;[Tw,m,q,k]]; # data collect
+dataC = [dataC;[Tw,m,q,k]]; % data collect
 end
 % Tm = TmeanCalm(Tab([11,2973,5169,8462,10109],2));
 % h = hCalm(Tab([11,2973,5169,8462,10109],[3:end]),Tm);
